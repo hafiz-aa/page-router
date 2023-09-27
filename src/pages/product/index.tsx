@@ -15,6 +15,7 @@ const ProductPage = () => {
     }
   }, [isLogin, push]);
 
+  // Client Side Rendering using SWR
   const { data, error, isLoading } = useSWR("/api/product", fetcher);
 
   // useEffect(() => {
