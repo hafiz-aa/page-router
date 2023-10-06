@@ -9,7 +9,10 @@
   align-items: center;
   &__title {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  &__error {
+    color: #fd3131;
   }
   &__form {
     width: 30%;

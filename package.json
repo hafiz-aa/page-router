@@ -12,6 +12,7 @@
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
+    "bcrypt": "^5.1.1",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.7",
     "firebase": "^10.4.0",
@@ -23,6 +24,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.30",
     "sass": "^1.68.0",
